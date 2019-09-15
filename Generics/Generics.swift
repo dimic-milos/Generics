@@ -10,6 +10,7 @@ import UIKit
 
 // MARK: Ways of declaring
 
+// First way of declaring
 class Foo<T: UIViewController> {
     
     let type: T
@@ -19,6 +20,7 @@ class Foo<T: UIViewController> {
     }
 }
 
+// Second way of declaring
 class Gru<T> where T : UIScrollView {
     
     let type: T
